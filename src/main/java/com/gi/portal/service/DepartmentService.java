@@ -29,4 +29,10 @@ public class DepartmentService {
 		// TODO Auto-generated method stub
 		return departmentRepository.findAll();
 	}
+
+	public boolean deleteByDepartmentId(Long departmentId) {
+		// TODO Auto-generated method stub
+		departmentRepository.deleteById(departmentId);		
+		return true;
+	}
 }
