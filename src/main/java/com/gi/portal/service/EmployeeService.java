@@ -29,5 +29,11 @@ public class EmployeeService {
 		// TODO Auto-generated method stub
 		return employeeRepository.findAll();
 	}
+	
+	public boolean deleteByEmployeeId(Long employeeId) {
+		// TODO Auto-generated method stub
+		employeeRepository.deleteById(employeeId);		
+		return true;
+	}
 
 }
