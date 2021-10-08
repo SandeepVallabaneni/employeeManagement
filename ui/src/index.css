@@ -1,0 +1,189 @@
+* {
+  font-family: 'Segoe UI','Segoe UI Web','Segoe WP','wf_segoe-ui_normal',Helvetica,Tahoma,Arial,sans-serif;
+  outline: none!Important;
+  font-size: small;
+}
+
+body {
+  margin: 0px;
+}
+.base-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.header-section {
+  background: #0772B3;
+  border-bottom: solid 1px #dbdee5;
+  width: 100%;
+  height: 60px;
+  z-index: 12;
+}
+
+.left-panel {
+  display: flex;
+  width: 200px;
+}
+
+.left-panel img {
+  width: 100%;
+}
+
+.right-panel {
+  display: flex;
+  margin-left: auto;
+}
+
+.org-logo {
+  margin: 15px;
+}
+
+header{
+  display: block;
+}
+
+.base-page .header-section .header-section-content {
+  height: 60px;
+}
+
+.align-items-stretch {
+  align-items: stretch!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.justify-content-start {
+  justify-content: flex-start!important;
+}
+
+.user-avatar{
+  margin-top: 6px;
+}
+
+.user-avatar-text{
+  margin-top: 7px;
+  padding: 0px 10px;
+}
+
+.user-avatar-text .text {
+  display: block;
+  margin-top: 2px;
+  color: azure;
+}
+
+.user-avatar-ellipse {
+  float: right;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+  color: azure;
+}
+
+.user-avatar-ellipse i{
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+
+.body-section {
+  flex: 1;
+  overflow: hidden;
+  background-color: transparent;
+  height: 100%;
+  min-height: calc( 100% - 80px);
+  flex-shrink: 0;
+}
+
+.body-main-section {
+  display: flex;
+  height: 100%;
+  flex-shrink: 0;
+  min-height: max-content;
+}
+
+.body-section .left-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 500px;
+  flex-shrink: 0;
+  background-color: #f0f1f4;
+  border-right: solid 1px #dbdee5;
+}
+
+.body-section .right-section {
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+.footer-section {
+  height: 20px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+}
+
+.p-menu {
+  width:auto !important;
+}
+
+.p-menu .p-menuitem-link:not(.p-disabled) .active {
+  background: #749efa;
+}
+
+.actionBar-wrap.light {
+  background-color: #fff;
+}
+
+.actionBar-wrap {
+  z-index: 6;
+  background-color: #fff;
+  border-bottom: solid 1px #dbdee5;
+}
+
+.actionBar-wrap {
+  position: relative;
+}
+
+.tab-control-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.actionBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 7;
+  height: 36px;
+  background-color: burlywood;
+}
+
+.actionBar .left-section {
+  z-index: 1;
+  display: flex;
+  height: 100%;
+  padding: 10px;
+}
+
+.actionBar .right-section {
+  z-index: 1;
+  display: flex;
+  height: 100%;
+  margin-left: auto;
+}
